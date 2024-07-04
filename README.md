@@ -1,1 +1,2 @@
 # Webpage-Media-Extractor
+This code sends a GET request to a web page and uses BeautifulSoup to parse the HTML content of the web page. It then extracts all media elements from the web page and extracts the URLs of all media files from the media elements. Finally, it downloads all media files to the local file system by sending a GET request to each media file URL and saving the content of the response to a file. The code uses regular expressions to extract the filename of each media file from its URL.
